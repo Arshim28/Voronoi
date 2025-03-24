@@ -11,14 +11,12 @@ This project uses Python 3.11+ and uv as the package manager.
    curl -sS https://raw.githubusercontent.com/astral-sh/uv/main/install.sh | bash
    ```
 
-2. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd cs_603
-   ```
+2. Clone the repository
 
 3. Install dependencies:
    ```bash
+   uv venv .venv
+   source .venv/bin/activate
    uv sync
    ```
 
